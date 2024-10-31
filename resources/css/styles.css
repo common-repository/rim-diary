@@ -1,0 +1,65 @@
+.rim-diary-widget {
+	position: relative;
+}
+
+.rim-diary-widget > .rim-container {
+	position: relative;
+	overflow: auto;
+	margin: .5em 0;
+}
+
+.rim-diary-widget .tim-hortons-cup {
+	float: left;
+	width: auto;
+	height: 128px;
+	margin-right: 1em;
+}
+
+.rim-diary-widget .statistic {
+	display: block;
+	margin: .5em 0;
+}
+
+.rim-diary-widget .call-to-action {
+	font-size: .825em;
+}
+
+#rim-diary-admin {
+	max-width: 1000px;
+}
+
+#rim-diary-admin .winnings {
+	margin: 2em 0 2em;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+#rim-diary-admin .statistic {
+	margin-right: 32px;
+    padding: .5em;
+    white-space: nowrap;
+	line-height: 2;
+}
+
+#rim-diary-admin .prize {
+	display: inline-block;
+	position: relative;
+	margin: 1em;
+	text-align: center;
+	vertical-align: top;
+}
+
+#rim-diary-admin .prize-image {
+	display: block;
+	margin-bottom: .5em;
+    max-height: 128px;
+}
+
+#rim-diary-admin .disclaimer {
+	margin-top: 2em;
+	font-size: .825em;
+}
+
+#rim-diary-admin .disclaimer:before {
+	content: '*';
+}
